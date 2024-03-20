@@ -70,11 +70,6 @@ h3 {
     font-size: 91.84px;
 
 }
-
-class2 {
-    position: absolute;
-}
-
 .we {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
@@ -95,9 +90,8 @@ button {
     font-family: 'AKIRA', sans-serif;
     font-size: 29.56px;
     border-radius: 100px;
-    box-shadow: none;
     color: white;
-    background-color: rgba(47, 45, 45, 1);
+    background-color: #2F2D2D;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 110px;
@@ -111,10 +105,13 @@ button {
     align-items: center;
     /* Example: set container height */
 }
-
+.cont a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
 .new {
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 1rem;
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
@@ -124,6 +121,9 @@ button {
     color: rgba(47, 45, 45, 1);
 }
 .gud{
+    font-family:"Poppins",sans-serif;
+    font-weight: 500;
+    font-size:1rem;
     color: white;
 }
 
