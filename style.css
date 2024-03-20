@@ -1,0 +1,177 @@
+body {
+    font-family: 'AKIRA', sans-serif;
+    color: rgba(47, 45, 45, 1);
+    margin: 0;
+    padding: 0;
+    background-image: url("Ellipse\ 1 (1).png"), url("Ellipse 6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right, left bottom;
+}
+
+nav {
+    padding: 5px;
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+    /*Space items evenly along the main-axis*/
+    align-items: center;
+    /* Center items vertically */
+}
+
+nav .left {
+    padding: 50px;
+    order: 0;
+    /* Change the order of the left item */
+    font-size: 56.2px;
+}
+
+nav .right {
+    padding-right: 50px;
+    font-size: 26.32px;
+}
+
+nav a {
+    color: rgba(47, 45, 45, 1);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+
+.image {
+    padding-left: 80px;
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+.h1 {
+    text-align: center;
+    FONT-SIZE: 133.49PX;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 91.84px;
+
+}
+
+class2 {
+    position: absolute;
+}
+
+.we {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 92.19px;
+}
+
+.bro {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 25.38px;
+    margin-top: 0;
+}
+
+button {
+    font-family: 'AKIRA', sans-serif;
+    font-size: 29.56px;
+    border-radius: 100px;
+    box-shadow: none;
+    color: white;
+    background-color: rgba(47, 45, 45, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Example: set container height */
+}
+
+.new {
+    padding-top: 20px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(47, 45, 45, 1);
+}
+.gud{
+    color: white;
+}
+
+
+@font-face {
+    font-family: 'AKIRA';
+    src: url('akira_expanded/Akira Expanded Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AKIRA-1';
+    src: url('Fixture-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AKIRA-2';
+    src: url('Fixture-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AKIRA-3';
+    src: url('Fixture-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AKIRA-4';
+    src: url('Fixture-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    /* Use flexbox for layout */
+}
+
+.image {
+    flex: 0 0 auto;
+    /* Allow the image to shrink or grow as needed */
+    margin-right: 20px;
+    /* Adjust margin between image and text */
+}
+
+.text {
+    flex: 1;
+    /* Allow the text to take up remaining space */
+}
