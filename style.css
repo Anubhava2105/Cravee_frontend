@@ -38,6 +38,10 @@ nav a {
     margin: 0 10px;
     border-radius: 5px;
 }
+nav a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
 
 
 .image {
@@ -126,7 +130,7 @@ button {
 
 @font-face {
     font-family: 'AKIRA';
-    src: url('fonts/akira_expanded/Akira Expanded Demo.otf') format('opentype');
+    src: url('fonts/Akira Expanded Demo.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
